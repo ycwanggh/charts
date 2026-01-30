@@ -184,7 +184,7 @@ class ChartTitle<D> extends ChartBehavior<D> {
 
   @override
   int get hashCode {
-    return Object.has(
+    return Object.hash(
         behaviorPosition,
         layoutMinSize,
         layoutPreferredSize,

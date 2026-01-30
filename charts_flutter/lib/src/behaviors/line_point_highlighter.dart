@@ -115,7 +115,7 @@ class LinePointHighlighter<D> extends ChartBehavior<D> {
 
   @override
   int get hashCode {
-    return Object.has(
+    return Object.hash(
       selectionModelType,
       defaultRadiusPx,
       radiusPaddingPx,
